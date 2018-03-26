@@ -59,3 +59,5 @@ You should be able to scroll through the list of posts with a fixed header and f
 > * We are setting the size to be exactly the size of the `Content` layer, by setting `size: Content.size`
 > * By default, a ScrollComponent can scroll both vertically and horizontally, however, we only want to allow vertical scrolling. So we set `scrollHorizontal: false`.
 > * We are then placing the `Posts` inside the `Scroll.content` layer.
+
+If you are having trouble getting to this point, feel free to open the `zeitbook1_done.framer` checkpoint and you should be all caught up!
