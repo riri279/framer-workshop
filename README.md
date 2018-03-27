@@ -7,9 +7,7 @@ Let's make sure you're all set up.
 * Make sure you have the **Framer app** installed. You can download a 2-week free trial (https://framer.com/). Mac only.
 * Download the project files in this Github repository, by clicking the `Clone or Download` and then `Download ZIP`. This file contains all the checkpoints for this workshop.
 
-<div style="text-align:center">
-  <img src="screenshots/download.png" width="400">
-</div>
+<img src="screenshots/download.png" width="400">
 
 * Extract the ZIP file.
 * Open Framer and ensure your trial is activated
@@ -26,15 +24,12 @@ You will see two artboards: `Home` and `PostsContainer`, as well as a black stat
 
 It should look like this when you're done:
 
-<div style="text-align:center">
-  <img src="screenshots/header.png" width="300">
-</div>
+<img src="screenshots/header.png" width="300">
+
 
 Ensure the Header is pinned to the top, left, and right. This way it will be responsive if we stretch the screen.
 
-<div style="text-align:center">
-  <img src="screenshots/header-resizing.png" width="300">
-</div>
+<img src="screenshots/header-resizing.png" width="300">
 
 If you've used Sketch before, this should be very familiar to you. So far there's not much here we couldn't do in Sketch.
 Now, let's create a scrolling new feed using the `Posts` sitting inside the `PostsContainer`.
@@ -43,10 +38,9 @@ First, we will need to **target** some elements in our prototype, so that we can
 
 * Target the `Content` layer inside the `Home` layer. Hover over the element in the sidebar, and click the blue bullseye button. If you now hover over the blue dot, you should see `**Content** in Code`.
 
-<div style="text-align:center">
-  <img src="screenshots/target1.png" width="300">
-  <img src="screenshots/target2.png" width="300">
-</div>
+<img src="screenshots/target1.png" width="300">
+
+<img src="screenshots/target2.png" width="300">
 
 * Similary, Target the `Posts` layer inside `PostsContainer`.
 * Switch to the **Code** tab at the top of the window.
