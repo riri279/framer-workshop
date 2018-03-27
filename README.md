@@ -5,9 +5,11 @@ Let's make sure you're all set up.
 ## Setup
 
 * Make sure you have the **Framer app** installed. You can download a 2-week free trial (https://framer.com/). Mac only.
-* Download the project files in this Github repository, by clicking the `Clone or Download` and then `Download ZIP`. This file contains all the checkpoints for this workshop. 
+* Download the project files in this Github repository, by clicking the `Clone or Download` and then `Download ZIP`. This file contains all the checkpoints for this workshop.
 
-[Screenshot here]
+<div style="text-align:center">
+  <img src="screenshots/download.png" width="400">
+</div>
 
 * Extract the ZIP file.
 * Open Framer and ensure your trial is activated
@@ -17,18 +19,22 @@ In Framer, click **Open Project...** and navigate to `FramerWorkshop/Step1` fold
 You will see two artboards: `Home` and `PostsContainer`, as well as a black status bar.
 
 * Create a Header at the top of the `Home` screen. (Use the "Frame" tool in the top left.)
-  * Be careful not to let the Header overlap with the `Content` layer.
+  * Be careful not to let the new `Header` overlap with the `Content` layer.
 * Move the dark status bar (below the Home screen) to the Header.
 * Put the Zeitspace logo and the text `ZEITBOOK` at the top.
 * Add a plus button in the top right corner.
 
 It should look like this when you're done:
 
-[Screenshot]
+<div style="text-align:center">
+  <img src="screenshots/header.png" width="300">
+</div>
 
 Ensure the Header is pinned to the top, left, and right. This way it will be responsive if we stretch the screen.
 
-[Screenshot]
+<div style="text-align:center">
+  <img src="screenshots/header-resizing.png" width="300">
+</div>
 
 If you've used Sketch before, this should be very familiar to you. So far there's not much here we couldn't do in Sketch.
 Now, let's create a scrolling new feed using the `Posts` sitting inside the `PostsContainer`.
@@ -36,6 +42,12 @@ Now, let's create a scrolling new feed using the `Posts` sitting inside the `Pos
 First, we will need to **target** some elements in our prototype, so that we can use them in the **Code** section.
 
 * Target the `Content` layer inside the `Home` layer. Hover over the element in the sidebar, and click the blue bullseye button. If you now hover over the blue dot, you should see `**Content** in Code`.
+
+<div style="text-align:center">
+  <img src="screenshots/target1.png" width="300">
+  <img src="screenshots/target2.png" width="300">
+</div>
+
 * Similary, Target the `Posts` layer inside `PostsContainer`.
 * Switch to the **Code** tab at the top of the window.
 * Add the following code into the code area:
