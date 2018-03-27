@@ -30,7 +30,7 @@ It should look like this when you're done:
 
 Ensure the Header is pinned to the top, left, and right. This way it will be responsive if we stretch the screen.
 
-<img src="screenshots/header-resizing.png" width="300">
+<img src="screenshots/header-resizing.png" width="400">
 
 If you've used Sketch before, this should be very familiar to you. So far there's not much here we couldn't do in Sketch.
 Now, let's create a scrolling new feed using the `Posts` sitting inside the `PostsContainer`.
@@ -39,9 +39,9 @@ First, we will need to **target** some elements in our prototype, so that we can
 
 * Target the `Content` layer inside the `Home` layer. Hover over the element in the sidebar, and click the blue bullseye button. If you now hover over the blue dot, you should see `**Content** in Code`.
 
-<img src="screenshots/target1.png" width="300">
+<img src="screenshots/target1.png" width="400">
 
-<img src="screenshots/target2.png" width="300">
+<img src="screenshots/target2.png" width="400">
 
 * Similary, Target the `Posts` layer inside `PostsContainer`.
 * Switch to the **Code** tab at the top of the window.
@@ -76,7 +76,7 @@ Go to the folder `Step2` and open the `zeitbook2_start.framer` project.
 
 You should see a variety of Zeitbook screens. We are going to link these screens together!
 
-**Splash Screen**
+**2.1 Splash Screen**
 * Make sure the `Splash`, `StatusBar` (inside `Shell`), and the `Home` layers are targeted. (They should be targeted already.)
 * Go to the **Code** tab
 * Add the following code to the **top of the file**
@@ -97,7 +97,7 @@ Utils.delay 1, ->
 
 The prototype should now wait for 1 second and then transition to the `Home` page.
 
-**Create a new Post**
+**2.2 Create a new Post**
 * Make sure the `CreatePostButton`, `CreatePost`, and `CreatePostBack` (inside `CreatePost > Header`)are all targeted.
 * Add the following code to the **end of the file**
 ```
@@ -112,7 +112,7 @@ CreatePostBack.onTap ->
 
 You should be able to go the Create a new Post page now!
 
-**Home and Chat Tabs**
+**2.3 Home and Chat Tabs**
 * Make sure the `Home`, `Chat`, `TabChat` (inside `Home`), and `TabHome` (inside `Chat`) are all targeted. (They should be targeted already.)
 * Go to the **Code** tab
 * Add the following code to the **end of the file**
@@ -128,7 +128,7 @@ TabChat.onTap ->
 
 You can now switch between the Home and Chat tabs!
 
-**View a Post**
+**2.4 View a Post**
 * Make sure the `PostFullscreen`, `Post1` (inside `PostsContainer > Posts`), and `ClosePostFullscreen` (inside `CreatePost > Header`) are all targeted.  (They should be targeted already.)
 * Add the following code to the **end of the file**
 ```
