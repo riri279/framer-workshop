@@ -241,9 +241,9 @@ Open the `zeitbook4_begin.framer` project.
 likeCount = 23
 # Add a like every time like is pressed
 LikeButton.onTap ->
-	likeCount++
-	LikeText.text = likeCount
-	LikesPost1.text = likeCount
+    likeCount++
+    LikeText.text = likeCount
+    LikesPost1.text = likeCount
 ```
 
 > **Code Explanation**
