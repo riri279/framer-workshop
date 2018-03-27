@@ -12,14 +12,15 @@ Let's make sure you're all set up.
 * Extract the ZIP file.
 * Open Framer and ensure your trial is activated
 
-## Step 1
+## Step 1 - Scrolling Screens
 In Framer, click **Open Project...** and navigate to `FramerWorkshop/Step1` folder and select `zeitbook1_begin.framer`.
 You will see two artboards: `Home` and `PostsContainer`, as well as a black status bar.
 
 * Create a Header at the top of the `Home` screen. (Use the "Frame" tool in the top left.)
   * Be careful not to let the new `Header` overlap with the `Content` layer.
 * Move the dark status bar (below the Home screen) to the Header.
-* Put the Zeitspace logo and the text `ZEITBOOK` at the top.
+* Drag the Zeitspace logo, found in the `Step1` folder, called `logo.svg` into the Framer window.
+* Add the text `ZEITBOOK` at the top.
 * Add a plus button in the top right corner.
 
 It should look like this when you're done:
@@ -67,3 +68,79 @@ You should be able to scroll through the list of posts with a fixed header and f
 > * We are then placing the `Posts` inside the `Scroll.content` layer.
 
 If you are having trouble getting to this point, feel free to open the `zeitbook1_done.framer` checkpoint and you should be all caught up!
+
+
+## Step 2 - Page to Page links
+
+Go to the folder `Step2` and open the `zeitbook2_start.framer` project.
+
+You should see a variety of Zeitbook screens. We are going to link these screens together!
+
+**Splash Screen**
+* Make sure the `Splash`, `StatusBar` (inside `Shell`), and the `Home` layers are targeted. (They should be targeted already.)
+* Go to the **Code** tab
+* Add the following code to the **top of the file**
+```
+# Create a Flow Component
+Flow = new FlowComponent
+    backgroundColor: "#ffffff"
+Flow.header = StatusBar
+Flow.showNext(Splash)
+```
+* This will show the `StatusBar` on top of all screens.
+* Add the following code **after the Scroll component code**
+```
+# Show the Home screen after a 1 second delay
+Utils.delay 1, ->
+    Flow.showNext(Home)
+```
+
+The prototype should now wait for 1 second and then transition to the `Home` page.
+
+**Create a new Post**
+* Make sure the `CreatePostButton`, `CreatePost`, and `CreatePostBack` (inside `CreatePost > Header`)are all targeted.
+* Add the following code to the **end of the file**
+```
+# Go to the Create Post screen
+CreatePostButton.onTap ->
+    Flow.showNext(CreatePost)
+
+# Return back to the Home screen
+CreatePostBack.onTap ->
+    Flow.showPrevious()
+```
+
+You should be able to go the Create a new Post page now!
+
+**Home and Chat Tabs**
+* Make sure the `Home`, `Chat`, `TabChat` (inside `Home`), and `TabHome` (inside `Chat`) are all targeted. (They should be targeted already.)
+* Go to the **Code** tab
+* Add the following code to the **end of the file**
+```
+# Show the Home page when the Home Tab is tapped
+TabHome.onTap ->
+    Flow.showNext(Home, animate: false)
+
+# Show the Chat page the Chat Tab is tapped
+TabChat.onTap ->
+    Flow.showNext(Chat, animate: false)
+```
+
+You can now switch between the Home and Chat tabs!
+
+**View a Post**
+* Make sure the `PostFullscreen`, `Post1` (inside `PostsContainer > Posts`), and `ClosePostFullscreen` (inside `CreatePost > Header`) are all targeted.  (They should be targeted already.)
+* Add the following code to the **end of the file**
+```
+# Show the Post Fullscreen screen when Post1 is tapped
+Post1.onTap ->
+    Flow.showOverlayCenter(PostFullscreen)
+
+# Return back to the Home screen
+ClosePostFullscreen.onTap ->
+    Flow.showPrevious()
+```
+
+Great! Now we've linked all the screens together. You should be able to navigate everywhere around the prototype now.
+
+If something went wrong, you can open the `zeitbook2_done.framer` project to catch up!

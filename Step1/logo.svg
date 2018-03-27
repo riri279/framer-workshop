@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 265 271" style="enable-background:new 0 0 265 271;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#231F20;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#231F20;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#231F20;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Zeitspace</title>
+<desc>Company logo for Zeitspace Inc.</desc>
+<g id="Release-2">
+	<g id="Logo-_x28_white_x29_" transform="translate(-79.000000, -55.000000)">
+		<g id="Zeitspace-Logo" transform="translate(79.400000, 58.471338)">
+			<g id="Hypercube" transform="translate(294.100000, 0.000000)">
+				<g id="Inner_Cube" transform="translate(51.100000, 55.672709)">
+					<g id="Cube" transform="translate(0.000000, 27.886330)">
+						<polygon id="Cube_Front" class="st0" points="-263.1,19.1 -194.7,33 -194.7,102.6 -263.1,88.7 						"/>
+					</g>
+					<g id="Facets" transform="translate(17.100000, 0.000000)">
+						<polygon id="Right" class="st0" points="-194.6,116.3 -177.9,102.6 -177.9,32.9 -194.6,46.7 						"/>
+						<polygon id="Top" class="st0" points="-194.6,46.7 -177.9,32.9 -246.3,19.1 -263.1,32.9 						"/>
+					</g>
+				</g>
+				<g id="Outer_Cube">
+					<g id="Facets_1_">
+						<polygon id="Facet_Front_2" class="st0" points="-126.4,242 -263.1,214.2 -212,172.3 -143.6,186.2 						"/>
+						<polygon id="Facet_Front_1" class="st0" points="-143.7,116.5 -126.4,102.3 -263.1,74.9 -212,102.7 						"/>
+						<polygon id="Facet_Right" class="st0" points="-58.4,46.8 -58.4,186.2 -109.7,158.3 -109.7,88.6 						"/>
+						<polygon id="Facet_Top" class="st0" points="-58.4,46.8 -109.7,88.6 -178.1,74.8 -195.3,19.1 						"/>
+					</g>
+					<g id="Cube_1_">
+						<polygon id="Cube_Right" class="st1" points="-126.4,102.3 -58.4,46.8 -58.4,186.2 -126.4,242 						"/>
+						<polygon id="Cube_Front_1_" class="st1" points="-263.1,74.9 -126.4,102.3 -126.4,242 -263.1,214.2 						"/>
+						<polygon id="Cube_Top" class="st1" points="-263.1,74.9 -195.3,19.1 -58.4,46.8 -126.4,102.3 						"/>
+					</g>
+					<polygon id="Outside_Perimeter" class="st2" points="-263.1,74.9 -195.3,19.1 -58.4,46.8 -58.4,186.2 -126.4,242 -263.1,214.2 
+											"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
