@@ -12,14 +12,16 @@ Scroll = new ScrollComponent
 
 # Put the Posts inside the scroll component content
 Posts.parent = Scroll.content
+# Ensure the Posts layer is the same size as the Content layer
+Posts.size = Content.size
 
 # Show the Home screen after a 1 second delay
 Utils.delay 1, ->
-	Flow.showNext(Home)
+	Flow.showNext(Home, scroll: false)
 
 # Show the Home page when the Home Tab is tapped
 TabHome.onTap ->
-	Flow.showNext(Home, animate: false)
+	Flow.showNext(Home, animate: false, scroll: false)
 
 # Show the Chat page the Chat Tab is tapped
 TabChat.onTap ->

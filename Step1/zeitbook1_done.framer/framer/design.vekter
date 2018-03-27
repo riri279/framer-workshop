@@ -1759,28 +1759,28 @@
                           "depth" : 0,
                           "inlineStyleRanges" : [
                             {
+                              "length" : 108,
                               "style" : "FONT:__SF-UI-Text-Regular__",
-                              "length" : 108,
                               "offset" : 0
                             },
                             {
+                              "length" : 108,
                               "style" : "LETTERSPACING:0",
-                              "length" : 108,
                               "offset" : 0
                             },
                             {
+                              "length" : 108,
                               "style" : "LINEHEIGHT:1.2",
-                              "length" : 108,
                               "offset" : 0
                             },
                             {
+                              "length" : 108,
                               "style" : "COLOR:#555555",
-                              "length" : 108,
                               "offset" : 0
                             },
                             {
-                              "style" : "SIZE:14",
                               "length" : 108,
+                              "style" : "SIZE:14",
                               "offset" : 0
                             }
                           ],
@@ -2983,9 +2983,9 @@
                     "widthFactor" : null,
                     "blendingEnabled" : 0,
                     "grayscale" : 0,
-                    "top" : 0,
+                    "top" : -19,
                     "saturate" : 100,
-                    "left" : 0,
+                    "left" : -25,
                     "locked" : false,
                     "sepiaEnabled" : 0,
                     "fillGradient" : {
@@ -3002,13 +3002,13 @@
                     "rotation" : 0,
                     "borderLeft" : 1,
                     "fillEnabled" : true,
-                    "right" : 0,
+                    "right" : -25,
                     "opacity" : 1,
                     "name" : null,
                     "blendingMode" : "normal",
                     "contrast" : 100,
                     "centerAnchorY" : 0.5,
-                    "height" : 260,
+                    "height" : 298,
                     "borderWidth" : 1,
                     "radiusIsRelative" : false,
                     "hueRotate" : 0,
@@ -3036,7 +3036,7 @@
                     "visible" : true,
                     "invertEnabled" : 0,
                     "heightFactor" : null,
-                    "width" : 347,
+                    "width" : 397,
                     "intrinsicHeight" : 561,
                     "borderBottom" : 1,
                     "deviceType" : null,
@@ -5796,7 +5796,7 @@
                     "grayscale" : 0,
                     "top" : null,
                     "saturate" : 100,
-                    "left" : 0,
+                    "left" : -25,
                     "locked" : false,
                     "sepiaEnabled" : 0,
                     "fillGradient" : {
@@ -5813,13 +5813,13 @@
                     "rotation" : 0,
                     "borderLeft" : 1,
                     "fillEnabled" : true,
-                    "right" : 0,
+                    "right" : -25,
                     "opacity" : 1,
                     "name" : "image",
                     "blendingMode" : "normal",
                     "contrast" : 81,
                     "centerAnchorY" : 0.5,
-                    "height" : 261,
+                    "height" : 299,
                     "borderWidth" : 1,
                     "radiusIsRelative" : false,
                     "hueRotate" : 0,
@@ -5847,11 +5847,11 @@
                     "visible" : true,
                     "invertEnabled" : 0,
                     "heightFactor" : null,
-                    "width" : 347,
+                    "width" : 397,
                     "intrinsicHeight" : 405,
                     "borderBottom" : 1,
                     "deviceType" : null,
-                    "bottom" : 0,
+                    "bottom" : -19,
                     "borderTop" : 1,
                     "targetName" : null,
                     "radiusBottomRight" : 0,
@@ -7094,28 +7094,28 @@
                           "depth" : 0,
                           "inlineStyleRanges" : [
                             {
+                              "length" : 78,
                               "style" : "FONT:__SF-UI-Text-Regular__",
-                              "length" : 78,
                               "offset" : 0
                             },
                             {
+                              "length" : 78,
                               "style" : "LETTERSPACING:0",
-                              "length" : 78,
                               "offset" : 0
                             },
                             {
+                              "length" : 78,
                               "style" : "LINEHEIGHT:1.2",
-                              "length" : 78,
                               "offset" : 0
                             },
                             {
+                              "length" : 78,
                               "style" : "COLOR:#555555",
-                              "length" : 78,
                               "offset" : 0
                             },
                             {
-                              "style" : "SIZE:14",
                               "length" : 78,
+                              "style" : "SIZE:14",
                               "offset" : 0
                             }
                           ],
@@ -8302,7 +8302,7 @@
                     "children" : [
 
                     ],
-                    "centerAnchorX" : 0.5014409221902018,
+                    "centerAnchorX" : 0.4985590778097982,
                     "id" : "Rjn1dp5l5",
                     "exportOptions" : [
 
@@ -8318,9 +8318,9 @@
                     "widthFactor" : null,
                     "blendingEnabled" : 0,
                     "grayscale" : 0,
-                    "top" : null,
+                    "top" : -35,
                     "saturate" : 100,
-                    "left" : 0,
+                    "left" : -48,
                     "locked" : false,
                     "sepiaEnabled" : 0,
                     "fillGradient" : {
@@ -8337,13 +8337,13 @@
                     "rotation" : 0,
                     "borderLeft" : 1,
                     "fillEnabled" : true,
-                    "right" : -1,
+                    "right" : -47,
                     "opacity" : 1,
                     "name" : "image",
                     "blendingMode" : "normal",
                     "contrast" : 100,
-                    "centerAnchorY" : 0.5,
-                    "height" : 262,
+                    "centerAnchorY" : 0.5019083969465649,
+                    "height" : 333,
                     "borderWidth" : 1,
                     "radiusIsRelative" : false,
                     "hueRotate" : 0,
@@ -8371,11 +8371,11 @@
                     "visible" : true,
                     "invertEnabled" : 0,
                     "heightFactor" : null,
-                    "width" : 348,
+                    "width" : 442,
                     "intrinsicHeight" : 405,
                     "borderBottom" : 1,
                     "deviceType" : null,
-                    "bottom" : 0,
+                    "bottom" : null,
                     "borderTop" : 1,
                     "targetName" : null,
                     "radiusBottomRight" : 0,
