@@ -257,9 +257,16 @@ The complete version of the prototype can be found at `zeitbook4_done.framer`.
 
 That's it!
 
-## Resources
+## Very Cool Framer Examples
+* Official Framer Examples https://framer.com/getstarted/examples/ 
+* Live Debate - https://dribbble.com/shots/4396743-Live-Debate-App-concept 
+* Car Dashboard - https://dribbble.com/shots/4372295-Car-screen-dashboard-UI 
+* Crypto Wallet - https://dribbble.com/shots/4352749-Crypto-Wallet-Interactions 
+* Empty State - https://dribbble.com/shots/4282122-Empty-State 
 
+## Resources
 * Framer tutorials https://framer.com/getstarted/tutorials/
 * Smashing Magazine tutorial https://www.smashingmagazine.com/2018/02/introduction-to-framer/
-* FramerCasts https://www.framercasts.com
 * Facebook Group (community forum / support) https://www.facebook.com/groups/framerjs/
+* More resources https://github.com/podo/awesome-framer
+
